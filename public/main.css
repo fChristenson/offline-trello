@@ -1,0 +1,50 @@
+:root {
+  font-family: helvetica;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: steelblue;
+  color: white;
+  padding: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+.board-header {
+  padding-bottom: 22px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  background: dimgray;
+  padding: 18px;
+  min-width: 147px;
+}
+
+.column__item {
+  padding: 12px;
+  background: ghostwhite;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.column__item--first {
+  text-align: center;
+  padding:  0 0 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  background: none;
+  color: white;
+}
